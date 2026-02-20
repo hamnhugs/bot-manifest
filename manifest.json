@@ -1,0 +1,107 @@
+{
+  "version": "1.2",
+  "updated": "2026-02-09",
+  "skills": [
+    {
+      "name": "self-improvement",
+      "version": "1.0.0",
+      "description": "Self-evolution system with 14 scripts",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/self-improvement",
+      "required": true,
+      "activation": [
+        "python3 scripts/learning_loop.py status"
+      ],
+      "validation": [
+        "test -f ~/.openclaw/workspace/.learning_loop_enabled"
+      ]
+    },
+    {
+      "name": "bot-bootstrap",
+      "version": "1.0.0",
+      "description": "Auto-activation on startup",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/bot-bootstrap",
+      "required": true,
+      "activation": [
+        "python3 scripts/activate_systems.py"
+      ],
+      "validation": [
+        "test -f ~/.openclaw/workspace/.learning_loop_enabled"
+      ]
+    },
+    {
+      "name": "bot-deployer",
+      "version": "2.0.0",
+      "description": "Plug-and-play deployment and auto-update system with continuous sync",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/bot-deployer",
+      "required": true,
+      "activation": [],
+      "validation": [
+        "test -f ~/.openclaw/workspace/skills/bot-deployer/SKILL.md"
+      ]
+    },
+    {
+      "name": "safe-model-switch",
+      "version": "1.0.0",
+      "description": "Safely switch models with auto-rollback",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/safe-model-switch",
+      "required": false,
+      "activation": [],
+      "validation": [
+        "test -f ~/.openclaw/workspace/skills/safe-model-switch/SKILL.md"
+      ]
+    },
+    {
+      "name": "bookworm-sections",
+      "version": "1.0.1",
+      "description": "BookWorm Studio API integration",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/bookworm-sections",
+      "required": true,
+      "activation": [],
+      "validation": [
+        "test -f ~/.openclaw/workspace/skills/bookworm-sections/scripts/bookworm_api.py"
+      ],
+      "updated": "2026-02-09T06:06:09.814597",
+      "bookworm_record_id": "afa58e5b-a7fa-4022-9f7f-b2d19770b2f7"
+    },
+    {
+      "name": "vegas-time",
+      "version": "1.0.0",
+      "description": "Las Vegas timezone helper for cron jobs",
+      "source": "local",
+      "path": "~/.openclaw/workspace/skills/vegas-time",
+      "required": false,
+      "activation": [],
+      "validation": [
+        "test -f ~/.openclaw/workspace/skills/vegas-time/scripts/get_time.py"
+      ]
+    }
+  ],
+  "cron_jobs": [
+    {
+      "name": "Daily Performance Digest",
+      "schedule": "0 8 * * *",
+      "tz": "America/Los_Angeles",
+      "command": "python3 ~/.openclaw/workspace/skills/self-improvement/scripts/daily_digest.py"
+    },
+    {
+      "name": "Weekly Memory Maintenance",
+      "schedule": "0 3 * * 0",
+      "tz": "America/Los_Angeles",
+      "command": "python3 ~/.openclaw/workspace/skills/self-improvement/scripts/learning_loop.py maintenance"
+    }
+  ],
+  "config": {
+    "token_budget_daily": 250000,
+    "token_budget_session": 100000,
+    "compression_threshold": 0.7,
+    "warning_threshold": 0.8,
+    "auto_update_enabled": false,
+    "learning_loop_enabled": true,
+    "model_routing_policy": "transparent"
+  }
+}
