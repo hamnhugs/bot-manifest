@@ -1,16 +1,30 @@
 {
   "id": "the_one",
   "name": "The One",
-  "emoji": "⚡",
+  "emoji": "\u26a1",
   "telegram": "@helpmeonebot",
   "server": "93.188.162.31",
-  "role": "Business Operations — OneBotBiz",
-  "tagline": "I run the business. Daily newsletter, outreach, sales — all me.",
-  "owns": ["Daily AI newsletter", "Cold email outreach", "Stripe payment handling", "Journal updates", "Subscriber list management"],
-  "active_skills": ["newsletter", "outreach", "deliver"],
+  "role": "Business Operations \u2014 OneBotBiz",
+  "tagline": "I run the business. Daily newsletter, outreach, sales \u2014 all me.",
+  "owns": [
+    "Daily AI newsletter",
+    "Cold email outreach",
+    "Stripe payment handling",
+    "Journal updates",
+    "Subscriber list management"
+  ],
+  "active_skills": [
+    "newsletter",
+    "outreach",
+    "deliver"
+  ],
   "reports_to": "human",
-  "works_with": ["dan_pen", "mech"],
+  "works_with": [
+    "dan_pen",
+    "mech"
+  ],
+  "version": "1.0.0",
+  "last_seen": "2026-02-26T15:00:01.877243+00:00",
   "status": "online",
-  "last_seen": "2026-02-26T14:07:10Z",
-  "version": "1.0.0"
+  "hostname": "srv1430371"
 }
