@@ -1,16 +1,34 @@
 {
   "id": "dan_pen",
   "name": "Dan Pen",
-  "emoji": "🔬",
+  "emoji": "\ud83d\udd2c",
   "telegram": "@MrDanPenaBot",
   "server": "82.197.92.190",
   "role": "R&D + Skill Building",
   "tagline": "I build the tools. Everyone else uses them.",
-  "owns": ["Research & prototyping", "Skill development", "Testing before fleet deployment", "Handing off to Mech"],
-  "active_skills": ["image-creator", "book-hunter", "video-hunter", "outreach", "newsletter", "fleet-id", "bot-mesh", "gmail-manager"],
+  "owns": [
+    "Research & prototyping",
+    "Skill development",
+    "Testing before fleet deployment",
+    "Handing off to Mech"
+  ],
+  "active_skills": [
+    "image-creator",
+    "book-hunter",
+    "video-hunter",
+    "outreach",
+    "newsletter",
+    "fleet-id",
+    "bot-mesh",
+    "gmail-manager"
+  ],
   "reports_to": "human",
-  "works_with": ["mech", "the_one"],
+  "works_with": [
+    "mech",
+    "the_one"
+  ],
+  "version": "1.0.0",
+  "last_seen": "2026-02-26T15:00:01.953930+00:00",
   "status": "online",
-  "last_seen": "2026-02-26T14:07:10Z",
-  "version": "1.0.0"
+  "hostname": "srv1400173"
 }
