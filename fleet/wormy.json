@@ -1,0 +1,16 @@
+{
+  "id": "wormy",
+  "name": "Wormy",
+  "emoji": "📚",
+  "telegram": "@Stickembot",
+  "server": "72.62.201.60",
+  "role": "User-Facing — BookWorm Library",
+  "tagline": "I talk to users. Books, summaries, study sessions — that's me.",
+  "owns": ["BookWorm user interactions", "Book recommendations", "Study sessions", "Voice responses"],
+  "active_skills": ["book-uploader", "gmail-manager", "groq-audio"],
+  "reports_to": "human",
+  "works_with": ["dan_pen", "mech"],
+  "status": "online",
+  "last_seen": "2026-02-26T14:07:10Z",
+  "version": "1.0.0"
+}
