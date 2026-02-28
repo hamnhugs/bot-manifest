@@ -1,0 +1,133 @@
+{
+  "_comment": "Example chart — Akela Gray. Use as reference for field structure.",
+  "name": "Akela Gray",
+  "birth_date": "December 27, 1986",
+  "birth_time": "11:40 PM",
+  "birth_place": "Las Vegas, Nevada",
+  "ascendant": "Libra 5°15'",
+  "midheaven": "Cancer 5°49'",
+  "big_three": {
+    "sun": {
+      "sign": "Capricorn", "degree": "6°16'", "house": "4th",
+      "interpretation": [
+        "With the Sun in Capricorn, your core identity is built on the bedrock of ambition, discipline, and the long game. You are here to build something that matters — something that will outlast the moment, prove itself through time, and leave the world more structured and functional than you found it.",
+        "Your highest expression is the elder statesperson: someone who has climbed through genuine merit, leads with integrity, and uses their hard-won position to uplift rather than consolidate power."
+      ],
+      "note": "In the 4th House: your life force is directed inward and downward — toward home, family, and the cultivation of a rich, private inner life."
+    },
+    "moon": {
+      "sign": "Scorpio", "degree": "26°31'", "house": "2nd",
+      "interpretation": [
+        "Your Moon in Scorpio gives you an emotional life of extraordinary depth, intensity, and complexity. Feelings are never surface events — they arrive fully loaded, with history and consequence and the weight of everything unsaid.",
+        "The emotional work is recognizing that vulnerability is not weakness but the bravest form of strength — and that some things must be allowed to die so that something new can breathe."
+      ],
+      "note": "In the 2nd House: emotional security is bound up with material stability. Financial reserves feel like emotional safety."
+    },
+    "rising": {
+      "sign": "Libra", "degree": "5°15'", "house": "1st",
+      "interpretation": [
+        "With Libra Rising, your presence is inherently graceful — people experience you as balanced, attractive, and socially elegant. You have a talent for making everyone feel welcome without effort.",
+        "The challenge is the indecision that comes from seeing all sides and the self-erasure of chronic diplomacy."
+      ],
+      "note": "Midheaven in Cancer: your public calling involves nurturing, protective, emotionally intelligent leadership."
+    }
+  },
+  "planets": [
+    {"symbol":"☉","name":"Sun",    "sign":"Capricorn",   "degree":"6°16'",    "house":"4th","ecliptic":276.27,"r_pos":0.44,"color":"GOLD",  "interpretation":"With the Sun in Capricorn in the 4th House, your life force is directed inward and downward. You are energized by belonging and by the creation of genuine sanctuary: a home that is not just a shelter but an expression of soul."},
+    {"symbol":"☽","name":"Moon",   "sign":"Scorpio",     "degree":"26°31'",   "house":"2nd","ecliptic":236.52,"r_pos":0.53,"color":"WINE",  "interpretation":"Moon in Scorpio in the 2nd House ties emotional security to material stability. You have a talent for earning and for understanding the market's emotional rhythms — you intuit what people want and value."},
+    {"symbol":"☿","name":"Mercury","sign":"Sagittarius", "degree":"27°26'",   "house":"3rd","ecliptic":267.43,"r_pos":0.35,"color":"MID",   "interpretation":"Mercury in Sagittarius in the 3rd House — its natural home — makes your mind curious, quick, and perpetually engaged. Philosophical, expansive thinking. You see the big picture and speak bluntly and enthusiastically."},
+    {"symbol":"♀","name":"Venus",  "sign":"Scorpio",     "degree":"20°54'",   "house":"2nd","ecliptic":230.90,"r_pos":0.32,"color":"WINE",  "interpretation":"Venus in Scorpio in the 2nd House: love is total, transformative, and merging. You have a genuine gift for creating beauty and for attracting resources through natural charm."},
+    {"symbol":"♂","name":"Mars",   "sign":"Pisces",      "degree":"22°10'",   "house":"6th","ecliptic":352.17,"r_pos":0.48,"color":"FIRE",  "interpretation":"Mars in Pisces in the 6th House: drive is intuitive, compassionate, and fluid — expressed through art, healing, or spiritual practice. Sets exceptionally high standards."},
+    {"symbol":"♃","name":"Jupiter","sign":"Pisces",      "degree":"16°56'",   "house":"6th","ecliptic":346.93,"r_pos":0.34,"color":"FIRE",  "interpretation":"Jupiter in Pisces in the 6th House: expansion through spiritual practice, empathy, and imaginative transcendence. Attracts luck through surrender to something larger."},
+    {"symbol":"♄","name":"Saturn", "sign":"Sagittarius", "degree":"14°58'",   "house":"3rd","ecliptic":254.97,"r_pos":0.55,"color":"MID",   "interpretation":"Saturn in Sagittarius in the 3rd House: the mind develops through discipline and rigor. Real wisdom requires testing ideas against reality, not just enthusiasm."},
+    {"symbol":"⛢","name":"Uranus", "sign":"Sagittarius", "degree":"23°22'",   "house":"3rd","ecliptic":263.37,"r_pos":0.42,"color":"LAV",   "interpretation":"Uranus in Sagittarius in the 3rd House: the mind operates at speeds others find either brilliant or baffling. Non-linear, innovative, consistently ahead of conventional understanding."},
+    {"symbol":"♆","name":"Neptune","sign":"Capricorn",   "degree":"5°32'",    "house":"3rd","ecliptic":275.53,"r_pos":0.30,"color":"LAV",   "interpretation":"Neptune in Capricorn in the 3rd House: thinking is poetic, intuitive, gifted at accessing dimensions that rational analysis cannot reach. Communicates through metaphor as much as fact."},
+    {"symbol":"♇","name":"Pluto",  "sign":"Scorpio",     "degree":"9°22'",    "house":"2nd","ecliptic":219.37,"r_pos":0.45,"color":"WINE",  "interpretation":"Pluto in Scorpio in the 2nd House: intense, transformative relationship with money and self-worth. May experience dramatic financial upheavals that force genuine reckoning with what truly matters."},
+    {"symbol":"☊","name":"N.Node", "sign":"Aries",       "degree":"17°27'",   "house":"7th","ecliptic":17.45, "r_pos":0.42,"color":"GOLD",  "interpretation":"North Node in Aries calls toward courageous self-assertion and authentic initiation."},
+    {"symbol":"⚷","name":"Chiron", "sign":"Gemini",      "degree":"17°34' R", "house":"9th","ecliptic":97.57, "r_pos":0.40,"color":"GRAY",  "interpretation":"Chiron in Gemini in the 9th House: wound around communication and being heard. Healing gift: becoming an exceptional communicator who helps others find their voice."}
+  ],
+  "house_cusps_ecliptic": [185.25,212.4,243.02,275.82,308.53,338.8,5.25,32.4,63.02,95.82,128.53,158.8],
+  "houses": [
+    {"number":1, "sign":"Libra",       "degree":"5°15'",  "description":"Empty. Identity shaped by Libra Ascendant and Venus's placement. Graceful, balanced, aesthetically attuned self-presentation. South Node here — past mastery in diplomacy and harmony."},
+    {"number":2, "sign":"Scorpio",     "degree":"2°24'",  "description":"Moon, Venus, Pluto. Intense relationship with money, self-worth, and what you call yours. Emotional security tied to material stability. Love that transforms. Power in resources."},
+    {"number":3, "sign":"Sagittarius", "degree":"3°01'",  "description":"Mercury, Saturn, Uranus, Neptune. Crowded house of mind — philosophical, expansive, sometimes scattered but always original. Four planets create a powerful but complex mental signature."},
+    {"number":4, "sign":"Capricorn",   "degree":"5°49'",  "description":"Sun. Life force directed toward home, family, and private inner sanctuary. Strong ancestral connection. Builds from the inside out. The IC — roots run deep."},
+    {"number":5, "sign":"Aquarius",    "degree":"8°32'",  "description":"Empty. Creative self-expression flows through Aquarian originality — unconventional, visionary, ahead of its time."},
+    {"number":6, "sign":"Pisces",      "degree":"8°48'",  "description":"Mars, Jupiter. Service-oriented, spiritually attuned work ethic. Luck through devotion and surrender. Health needs mindful limits around overwork and overindulgence."},
+    {"number":7, "sign":"Aries",       "degree":"5°15'",  "description":"Empty. North Node here — relationships are the arena of the soul's evolution. Partners tend to be Arian: direct, bold, initiating. The Descendant: what you seek in others."},
+    {"number":8, "sign":"Taurus",      "degree":"2°24'",  "description":"Empty. Transformation comes slowly, materially, through Taurean steadiness. Shared resources handled with patience and practicality."},
+    {"number":9, "sign":"Gemini",      "degree":"3°01'",  "description":"Chiron. The quest for meaning is where the wound lives — and where the greatest healing gift awaits. Philosophy and higher learning are both the arena of pain and of mastery."},
+    {"number":10,"sign":"Cancer",      "degree":"5°49'",  "description":"Empty. Midheaven in Cancer: public calling involves nurturing, emotionally intelligent, protective leadership. Career that allows genuine care for others is most fulfilling."},
+    {"number":11,"sign":"Leo",         "degree":"8°32'",  "description":"Empty. Friends and community expressed with Leo warmth — generous, loyal, drawn to creative and visionary circles."},
+    {"number":12,"sign":"Virgo",       "degree":"8°48'",  "description":"Empty. The hidden self is Virgoan — analytical, quietly perfectionistic, devoted. Solitude and acts of service restore the spirit."}
+  ],
+  "elements": {"fire":0.30,"earth":0.20,"air":0.00,"water":0.50},
+  "modalities": {"cardinal":0.20,"fixed":0.30,"mutable":0.50},
+  "aspects": [
+    {"type":"CONJUNCTION","orb":"0.7°","p1":"Sun","p2":"Neptune","description":"Identity and imagination fused so completely they are indistinguishable. Creative intelligence runs through everything — the ability to perceive what others can't name, and make it real.","color":"GOLD","featured":true},
+    {"type":"CONJUNCTION","orb":"4.1°","p1":"Mercury","p2":"Uranus","description":"Brilliantly original mind — leaps to insights others haven't reached. Non-linear. Electrifying in originality, occasionally alienating in abruptness.","color":"LAV","featured":true},
+    {"type":"CONJUNCTION","orb":"5.2°","p1":"Mars","p2":"Jupiter","description":"Drive and optimism fused. Acts boldly on belief. Energy always matches the ambition.","color":"FIRE","featured":true},
+    {"type":"CONJUNCTION","orb":"5.6°","p1":"Moon","p2":"Venus","description":"Emotions and love woven together. Naturally attracts warmth and beauty simply by being emotionally present.","color":"WINE","featured":true},
+    {"type":"CONJUNCTION","orb":"8.1°","p1":"Mercury","p2":"Neptune","description":"Mind and imagination merged. Poetic, intuitive intellect. Metaphor is native language.","color":"LAV","featured":false},
+    {"type":"CONJUNCTION","orb":"8.4°","p1":"Saturn","p2":"Uranus","description":"Structure and rebellion fused. Discipline that innovates. Reform through rigor.","color":"MID","featured":false},
+    {"type":"CONJUNCTION","orb":"8.8°","p1":"Sun","p2":"Mercury","description":"Mind and identity merged. Thinking IS you. Strong intellectual authority in expression.","color":"GOLD","featured":false},
+    {"type":"OPPOSITION","orb":"2.6°","p1":"Saturn","p2":"Chiron","description":"Structure vs wound. Tension between expectation and delivery asks for radical self-acceptance.","color":"MID","featured":true},
+    {"type":"OPPOSITION","orb":"5.8°","p1":"Uranus","p2":"Chiron","description":"Innovation vs wound. What disrupts also heals. Awareness through contrast.","color":"LAV","featured":false},
+    {"type":"OPPOSITION","orb":"9.9°","p1":"Mercury","p2":"Chiron","description":"The gap between what you think and what you say. Chiron asks you to close it.","color":"MID","featured":false},
+    {"type":"TRINE","orb":"1.3°","p1":"Venus","p2":"Mars","description":"Love and desire in harmony. Attracts and pursues with natural ease and grace.","color":"WINE","featured":true},
+    {"type":"TRINE","orb":"2.5°","p1":"Saturn","p2":"N.Node","description":"Patient effort carries you toward soul purpose. Structure serves evolution.","color":"GOLD","featured":false},
+    {"type":"TRINE","orb":"4.0°","p1":"Venus","p2":"Jupiter","description":"Love, beauty, and good fortune. One of the most gracious aspects in any chart.","color":"WINE","featured":true},
+    {"type":"TRINE","orb":"4.3°","p1":"Moon","p2":"Mars","description":"Emotional and physical energy flow together. Instincts tend to be right. Act from feeling.","color":"WINE","featured":false},
+    {"type":"TRINE","orb":"5.9°","p1":"Uranus","p2":"N.Node","description":"Innovation and evolutionary purpose aligned. Breaking new ground carries you forward.","color":"LAV","featured":false},
+    {"type":"TRINE","orb":"7.6°","p1":"Jupiter","p2":"Pluto","description":"Growth and transformative power flow together. Expansion through genuine depth and renewal.","color":"FIRE","featured":false},
+    {"type":"SQUARE","orb":"0.6°","p1":"Jupiter","p2":"Chiron","description":"Optimism vs wound. Hard to maintain faith after disillusionment. Wisdom earned the hard way.","color":"FIRE","featured":false},
+    {"type":"SQUARE","orb":"1.2°","p1":"Mars","p2":"Uranus","description":"Action vs rebellion. Brilliant when channeled. Explosive when frustrated. Channel before detonating.","color":"FIRE","featured":true},
+    {"type":"SQUARE","orb":"2.0°","p1":"Jupiter","p2":"Saturn","description":"Possible vs practical. Dream within structure. Build systems that actually scale.","color":"MID","featured":false},
+    {"type":"SQUARE","orb":"4.6°","p1":"Mars","p2":"Chiron","description":"Drive vs wound. Frustration around assertion. Healing produces the courage of genuine self-advocacy.","color":"FIRE","featured":false},
+    {"type":"SEXTILE","orb":"2.5°","p1":"Saturn","p2":"S.Node","description":"Structure supports past mastery. Discipline draws from deep experience.","color":"MID","featured":false},
+    {"type":"SEXTILE","orb":"3.1°","p1":"Sun","p2":"Pluto","description":"Personal power and transformative capacity cooperate. Intensity without being destroyed.","color":"GOLD","featured":false},
+    {"type":"SEXTILE","orb":"3.8°","p1":"Neptune","p2":"Pluto","description":"Generational aspect. Spiritual imagination and collective transformation in cooperative dialogue.","color":"LAV","featured":false},
+    {"type":"SEXTILE","orb":"5.9°","p1":"Uranus","p2":"S.Node","description":"Originality draws on past mastery. Innovation has deep roots.","color":"LAV","featured":false}
+  ],
+  "aspect_lines": [[276.27,275.53],[236.52,230.90],[267.43,263.37],[352.17,346.93],[230.90,352.17],[230.90,346.93],[276.27,219.37]],
+  "nodal_axis": {
+    "north_node": {
+      "sign":"Aries","house":"7th","degree":"17°27'",
+      "summary":"Step into courageous self-assertion. Initiate without waiting for consensus.",
+      "interpretation":["The North Node in Aries calls you toward the frontier of authentic selfhood. In past lives or early conditioning, you mastered the art of Libra — diplomacy, balance, the careful consideration of all sides. You carry this gift well.","But this lifetime's evolutionary invitation is to step into the territory that once felt forbidden — the territory of the self. To act on your own impulse before checking whether everyone approves. To be the one who goes first."],
+      "note":"In the 7th House: relationships are the arena where this evolution plays out most visibly."
+    },
+    "south_node": {
+      "sign":"Libra","house":"1st","degree":"17°27'",
+      "summary":"Mastery in harmony and diplomacy. Your needs matter as much as anyone's.",
+      "interpretation":["The South Node in Libra is your past mastery. You are skilled at harmony, at relationship, at the elegant arts of diplomacy and aesthetic refinement.","But in this lifetime, those gifts can become a trap: the chronic people-pleasing that erases you, the indecision that keeps you frozen in a sea of other people's preferences. Your growth edge is learning that your needs and desires matter as much as anyone else's."]
+    }
+  },
+  "chiron": {
+    "sign":"Gemini","house":"9th","degree":"17°34'","retrograde":true,
+    "summary":"Wound: silenced or misunderstood early. Gift: helping others find their voice.",
+    "interpretation":["Chiron in Gemini carries a wound around communication, thought, and the experience of being heard and truly understood. You may have been silenced in early life, ridiculed for how your mind works, or received the message that what you had to say was wrong or confusing.","The healing gift is magnificent: once you begin integrating this wound, you become an exceptional communicator and teacher — precisely because you understand from the inside what it costs when words fail us."],
+    "note":"In the 9th House: this wound and healing gift express in the domain of higher learning, travel, and philosophy."
+  },
+  "synthesis": {
+    "portrait_lines": [
+      "What the world sees first is Libra's grace: someone poised, warm, and effortlessly welcome in any room.",
+      "What the world doesn't see — at least not immediately — is the Scorpio underneath. The emotional intensity",
+      "that never surfaces unless something earns it. The capacity for feeling that most people spend a lifetime",
+      "running from, and that this chart runs toward. Pair that with a Capricorn Sun buried in the 4th House —",
+      "not performing ambition publicly, but building it privately, brick by patient brick — and you have someone",
+      "who is far more formidable than they first appear."
+    ],
+    "threads": [
+      {"title":"SUN ☉ conjunct NEPTUNE ♆  (0.7°)","body1":"Identity and imagination are fused so tightly they are indistinguishable.","body2":"Creativity is not something this person does — it is who they are.","color":"GOLD"},
+      {"title":"MOON ☽ conjunct VENUS ♀  (5.6°) in Scorpio","body1":"Love and emotional life are one and the same. There is no casual affection here.","body2":"Connection is either total or it isn't happening. This chart changes the people who love it.","color":"WINE"},
+      {"title":"NORTH NODE ☊ in Aries  —  7th House","body1":"The soul's work: learn to want things openly. To initiate before consensus.","body2":"The diplomat's mask is a gift — and a cage. Growth is in knowing when to take it off.","color":"WATER"}
+    ],
+    "pull_quote": "Capricorn ambition. Scorpio depth. Libra grace. This chart was built to outlast the room.",
+    "full_text": [
+      "At the heart of Akela Gray's chart is a fundamental interplay between Capricorn solar identity, Scorpio emotional depths, and the world-facing mask of Libra Rising. The chart carries a strong Water signature — emotionally deep, intuitive, empathically attuned — with Fire adding inspired drive.",
+      "The tightest aspects speak loudest: the Sun-Neptune conjunction at 0.7° fuses identity with imagination so completely that creativity is not something this person does, it is who they are. The Jupiter-Chiron square at 0.6° is the lifelong question: how do you maintain genuine faith after being misunderstood?",
+      "The Midheaven in Cancer points toward a public calling involving emotional intelligence and genuine care for others. Ultimately, this chart belongs to someone whose journey involves integrating Capricorn's iron will with Scorpio's emotional wisdom — finding a way to be fully themselves in a world that will reward them precisely for that."
+    ]
+  }
+}
